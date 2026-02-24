@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 
 # Virtual Environments
 .env
@@ -17,11 +18,8 @@ Thumbs.db
 # IDEs and Editors
 .idea/
 .vscode/
-*.swp
-*.swo
 
-# Project/Data Artifacts
-# Avoid pushing user PII/AddressBooks to version control
+# Project Artifacts
 assistant-bot/user_address_book/*.csv
 assistant-bot/user_address_book/*.json
 assistant-bot/user_address_book/*.pkl
@@ -29,6 +27,7 @@ assistant-bot/user_address_book/*.pkl
 # Testing & Mock Artifacts
 .pytest_cache/
 .coverage
+htmlcov/
 test_addressbook/ex_contacts.csv
 test_addressbook/ex_contacts.json
 test_addressbook/ex_contacts.pkl

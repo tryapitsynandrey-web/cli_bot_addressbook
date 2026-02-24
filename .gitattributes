@@ -8,12 +8,10 @@
 # Configuration and Documentation
 *.md text eol=lf
 *.json text eol=lf
+*.txt text eol=lf
 *.yaml text eol=lf
 *.yml text eol=lf
 *.ini text eol=lf
-
-# Shell Scripts
-*.sh text eol=lf executable
 
 # Exclude Binary Files from modifications
 *.pkl binary
@@ -23,7 +21,6 @@
 *.dll binary
 *.exe binary
 
-# Editor / Git Config
+# Git Config
 .gitignore text eol=lf
 .gitattributes text eol=lf
-.editorconfig text eol=lf
